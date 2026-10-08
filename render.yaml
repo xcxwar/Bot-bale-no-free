@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: GerSha-AI-Bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_render_free.py
+    healthCheckPath: /health
