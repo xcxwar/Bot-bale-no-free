@@ -25,9 +25,9 @@ from openai import OpenAI
 # 🔐 تنظیمات
 # =========================================================
 
-BALE_TOKEN = os.getenv("660252688:Wb5YQtv2B6SoUZdZvd8xhm6G4f_UUuByEyE")
+BALE_TOKEN = os.getenv("BALE_TOKEN")
 
-GAPGPT_API_KEY = os.getenv("sk-hjxiBJpKACOXI4IStWGftlPr3ayYDm0TTfJBpcwi5jZGrYja")
+GAPGPT_API_KEY = os.getenv("GAPGPT_API_KEY")
 
 GAPGPT_BASE_URL = "https://api.gapgpt.app/v1"
 
@@ -35,7 +35,7 @@ DEFAULT_MODEL = "gpt-4o-mini"
 
 # آیدی عددی خودت
 ADMIN_IDS = {
-    "@Itz_ShaMlu"
+    "955311935"
 }
 
 
